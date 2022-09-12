@@ -1,0 +1,16 @@
+/* ADD TWO NUMBERS */
+x = 8;
+y = 9;
+LOOP x DO
+    y = y + 1;
+END;
+
+/* MULTIPLY TWO NUMBERS */
+x = 7;
+y = 3;
+result = y;
+LOOP x DO
+    LOOP y DO
+        result = result + 1;
+    END;
+END;

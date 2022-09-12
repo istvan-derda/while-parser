@@ -1,11 +1,13 @@
 grammar While;
-expressions :   expr ';' expressions
-            |   expr ';';
-expr        :   VAR '=' CONST
+programs    :   program ';' programs
+            |   program ';'
+            |   EOF;
+program     :   VAR '=' CONST
+            |   VAR '=' VAR
             |   VAR '=' VAR '+' CONST
             |   VAR '=' VAR '-' CONST
-            |   'LOOP' VAR 'DO' expressions 'END'
-            |   'WHILE' VAR 'DO' expressions 'END';
+            |   'LOOP' VAR 'DO' programs 'END'
+            |   'WHILE' VAR 'DO' programs 'END';
 
 VAR         :   [a-zA-Z][a-zA-Z0-9_]*;
 CONST       :   '0'
