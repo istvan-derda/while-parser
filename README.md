@@ -14,7 +14,7 @@ It supports the basic structure of WHILE Programs:
 - Sequence of Programs `program; program`
 - WHILE loops `WHILE VAR DO programs END`
 
-And it supports some syntactic sugar like the `LOOP` statement and `VAR = VAR` aswell as `VAR = CONST` for user-friendliness.
+And it supports some syntactic sugar like the `LOOP` statement and `VAR = VAR` as well as `VAR = CONST` for user-friendliness.
 
 **Grammar:**
 ```ANTLRv4
