@@ -13,4 +13,5 @@ VAR         :   [a-zA-Z][a-zA-Z0-9_]*;
 CONST       :   '0'
             |   [1-9][0-9']*;
 WS          :   [ \r\n\t]+ -> skip;
-COMMENT     :   '/*' .*? '*/' -> skip;
+BLKCOMMENT  :   '/*' .*? '*/' -> skip;
+LINECOMMENT :   '//' .*? '\n' -> skip;

@@ -8,9 +8,9 @@ END;
 /* MULTIPLY TWO NUMBERS */
 x_1 = 7;
 x_2 = 3;
-result = x_2;
-LOOP x_1 DO
-    LOOP x_2 DO
+result = 0;
+LOOP x_1 DO // outer loop running x_1 times
+    LOOP x_2 DO // inner loop adding x_2 to result
         result = result + 1;
     END;
 END;
