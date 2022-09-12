@@ -1,3 +1,10 @@
+/* SIMULATE LOOP WITH WILE */
+i = 10;
+WHILE i DO
+    //do something
+    i = i - 1;
+END;
+
 /* ADD TWO NUMBERS */
 x_1 = 8;
 x_2 = 9;
