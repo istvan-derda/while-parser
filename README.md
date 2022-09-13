@@ -48,7 +48,7 @@ program     :   VAR '=' CONST
 
 **Example Program:**
 ```WHILE
-/* SIMULATE LOOP WITH WILE */
+/* SIMULATE LOOP WITH WHILE */
 i = 10;
 WHILE i DO
     //do something
