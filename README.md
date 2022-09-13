@@ -16,7 +16,7 @@ reasonably straight forward to extend it to be an interpreter for while programs
 
 **Run**
 
-Run `java -jar target/while-parser-1.0-SNAPSHOT.jar src/test/antlr/example.while`
+Run `java -jar target/while-parser-1.0.jar src/test/antlr/example.while`
 
 ## Supported Language
 
