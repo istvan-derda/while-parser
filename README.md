@@ -62,12 +62,9 @@ What convinced me to go with ANTLR was the good IDE integration with IntelliJ an
 are not polluted with code, which makes things a lot more readable in my opinion. Also, this allows for using the same
 grammar source files with different programming languages, which makes the tool a lot more versatile than any of the
 other parser generators I tried. In conclusion, I did not care much for which type of parser it would generate, as long as it is
-reasonably performant. It is the tool I could see myself actually using in the languages and ecosystems I currently work in. (JVM, JS, Python)
+reasonably performant and developer-friendly. It is the tool I could see myself actually using in the languages and ecosystems I currently work in. (JVM, JS, Python)
 
 ## How did I decide to tokenize things?
 
 ANTLR does not separate the lexer from the parser, so I didn't make much conscious choice there. Since the parsed 
 language is quite simple I went for readability of the grammar and did not define a lot of lexer rules.
-
-## What is the type of the Grammar? What parser type did I generate?
-
