@@ -2,7 +2,13 @@
 
 A simple parser I built for my parsing class at Leipzig University.
 
-## How to build & run
+## What Does It Do?
+
+This program simply parses valid while program files. On invalid input it throws an Exception and crashes. After parsing, 
+it traverses the parse tree and prints some debug output to stdout. It is nothing more than a proof of concept, it should be 
+reasonably straight forward to extend it to be an interpreter for while programs.
+
+## How To Build & Run
 
 **Build**
 
@@ -63,8 +69,3 @@ are not polluted with code, which makes things a lot more readable in my opinion
 grammar source files with different programming languages, which makes the tool a lot more versatile than any of the
 other parser generators I tried. In conclusion, I did not care much for which type of parser it would generate, as long as it is
 reasonably performant and developer-friendly. It is the tool I could see myself actually using in the languages and ecosystems I currently work in. (JVM, JS, Python)
-
-## How did I decide to tokenize things?
-
-ANTLR does not separate the lexer from the parser, so I didn't make much conscious choice there. Since the parsed 
-language is quite simple I went for readability of the grammar and did not define a lot of lexer rules.
