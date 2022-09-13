@@ -21,8 +21,6 @@ public class Main implements Runnable {
 
     @Override
     public void run() {
-        System.out.println(whileProgramSourceName);
-
         try {
             CharStream inputStream = CharStreams.fromFileName(whileProgramSourceName);
             WhileLexer lexer = new WhileLexer(inputStream);
