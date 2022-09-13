@@ -30,6 +30,8 @@ It supports the basic structure of WHILE Programs:
 
 And it supports some syntactic sugar like the `LOOP` statement and `VAR = VAR` as well as `VAR = CONST` for user-friendliness.
 
+Line comments can be written with the prefix `//` and block comments like `/* ... */`. They will be ignored by the parser.
+
 **Grammar:**
 ```ANTLRv4
 grammar While;
