@@ -1,4 +1,4 @@
-# Simple While-Program Parser built with ANTLR
+# Simple While-Program Parser Built With ANTLR
 
 A simple parser I built for my parsing class at Leipzig University.
 
