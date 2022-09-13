@@ -6,11 +6,11 @@ A simple parser I built for my parsing class at Leipzig University.
 
 **Build**
 
-- `mvn package`
+`mvn package` To generate the parser sourcefiles, compile the java code and package it to a .jar file with all dependencies.
 
 **Run**
 
-- `java -jar target/while-parser-1.0-SNAPSHOT.jar src/test/antlr/example.while`
+Run `java -jar target/while-parser-1.0-SNAPSHOT.jar src/test/antlr/example.while`
 
 ## Supported Language
 
