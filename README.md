@@ -4,6 +4,14 @@ A simple parser I built for my parsing class at Leipzig University.
 
 ## How to build & run
 
+**Build**
+
+- `mvn package`
+
+**Run**
+
+- `java -jar target/while-parser-1.0-SNAPSHOT.jar src/test/antlr/example.while`
+
 ## Supported Language
 
 This parser parses WHILE Programs, which are used in theoretical computer science for proving computability. 
