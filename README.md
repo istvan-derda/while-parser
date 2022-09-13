@@ -4,7 +4,7 @@ A simple parser I built for my parsing class at Leipzig University.
 
 ## What Does It Do?
 
-This program simply parses valid while program files. On invalid input it throws an Exception and crashes. After parsing, 
+This program simply parses valid while program files. On invalid input it prints an errormessage and proceeds to parse what it can. After parsing, 
 it traverses the parse tree and prints some debug output to stdout. It is nothing more than a proof of concept, it should be 
 reasonably straight forward to extend it to be an interpreter for while programs.
 
